@@ -1,0 +1,24 @@
+Model17 (RO-BAB): Manuscript-aligned final metrics
+Reference source: G3_CAOB_EffortBias manuscript, Table 2
+
+Description:
+Final pooled out-of-fold performance for the manuscript version of the
+fold-wise optimized rank blend (RO-BAB / Model17) under five-fold spatial
+block cross-validation.
+
+ROC-AUC: 0.790
+PR-AUC : 0.0364
+Top-1% recall : 0.1064
+Top-5% recall : 0.2675
+Top-10% recall: 0.4043
+
+Notes:
+- Values above are aligned to the manuscript table used for submission.
+- Recalls are written here as proportions to match the style of the original
+  text file. In the manuscript table they appear as percentages:
+  Top-1% = 10.64, Top-5% = 26.75, Top-10% = 40.43.
+- Fold-wise blend weights are intentionally omitted in this manuscript-aligned
+  replacement file because the currently available weights/metrics text files
+  do not fully match the manuscript-reported results.
+- Use this file only as the final release text if these manuscript values are
+  the confirmed authoritative results for the paper.

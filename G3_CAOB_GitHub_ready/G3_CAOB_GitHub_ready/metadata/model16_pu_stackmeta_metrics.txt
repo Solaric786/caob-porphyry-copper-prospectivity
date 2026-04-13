@@ -1,0 +1,23 @@
+Model16 (PW-PUStack): Manuscript-aligned final metrics
+Reference source: G3_CAOB_EffortBias manuscript, Table 2
+
+Description:
+Final pooled out-of-fold performance for the manuscript version of the
+Propensity-Weighted PU Stacked Ensemble (PW-PUStack / Model16)
+under five-fold spatial block cross-validation.
+
+ROC-AUC: 0.775
+PR-AUC : 0.0312
+Top-1% recall : 0.0973
+Top-5% recall : 0.2614
+Top-10% recall: 0.4195
+
+Notes:
+- Values above are aligned to the manuscript table used for submission.
+- Recalls are written here as proportions to match the style of plain-text
+  metrics files. In the manuscript table they appear as percentages:
+  Top-1% = 9.73, Top-5% = 26.14, Top-10% = 41.95.
+- The originally available stage-wise text file (PU / SUP / META) does not
+  exactly match the manuscript-reported final PW-PUStack values, so this
+  manuscript-aligned file should be treated as the authoritative release
+  text file if these manuscript values are the confirmed final results.
